@@ -1,13 +1,10 @@
 <div align="center">
 
-```
-$ whoami
-Praveen P — final-year AI & Data Science engineer, Coimbatore
+# 👋 Praveen P
 
-$ cat focus.txt
-Looking for a software role where day-one output
-matters more than semesters completed.
-```
+### Final-year AI & Data Science Engineer · Coimbatore
+
+🎯 Looking for a software role where **day-one output** matters more than semesters completed.
 
 **Open to Software Engineering / GET roles** · [Portfolio](https://praveennp158-cell.github.io) · [LinkedIn](https://linkedin.com/in/praveen-p) · [Email](mailto:70praveen.p@gmail.com)
 
@@ -29,7 +26,7 @@ Final-year **B.Tech, AI & Data Science** @ VSB College of Engineering Technical 
 
 ---
 
-### Featured build — NLP-to-SQL Converter
+### 🚀 Featured build — NLP-to-SQL Converter
 
 Plain English in, working SQL out — no query language required:
 
@@ -52,14 +49,14 @@ Built with Python, Streamlit, SQLite, and Groq's Llama 3.3-70B. → [Repo](https
 
 ---
 
-### Also built
+### 🛠️ Also built
 
 - **[Object Detection — YOLOv8](https://github.com/praveennp158-cell/OBJECT-DETECTION-YOLOV8)** — one pipeline, three modes (image / webcam / video), tuned to cut false positives across 80+ classes
 - **Smart Dustbin (IoT)** — sensor-triggered fill alerts, architected as scalable smart-city infra · *patent filed*
 
 ---
 
-### Stack
+### ⚙️ Stack
 
 `Python` `Java` `SQL` &nbsp;·&nbsp; `NumPy` `Pandas` `Scikit-learn` `OpenCV` &nbsp;·&nbsp; `Streamlit` `Groq API` &nbsp;·&nbsp; `Git` `GitHub`
 
@@ -76,6 +73,6 @@ Built with Python, Streamlit, SQLite, and Groq's Llama 3.3-70B. → [Repo](https
 
 ---
 
-### Certifications
+### 🏅 Certifications
 
 HackerRank — Python (Basic), SQL (Basic) · Google Generative AI Badge · Infosys Springboard — Generative AI
