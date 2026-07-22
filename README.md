@@ -1,70 +1,76 @@
-<h1 align="center">Hi 👋, I'm Praveen</h1>
-<h3 align="center">Final-Year AI & Data Science Undergrad · Building with Python, Java & LLMs · Actively Interviewing for SDE Roles</h3>
+<div align="center">
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Building+an+NLP-to-SQL+Converter;Final-Year+B.Tech+AI+%26+DS+Student;Open+to+Software+Engineering+roles;Python+%7C+Java+%7C+SQL+%7C+ML&font=Fira+Code&center=true&width=520&height=45&color=58A6FF&vCenter=true&pause=1200" alt="Typing SVG" />
-</p>
+```
+$ whoami
+Praveen P — final-year AI & Data Science engineer, Coimbatore
 
----
+$ cat focus.txt
+Looking for a software role where day-one output
+matters more than semesters completed.
+```
 
-### 🚀 About Me
+**Open to Software Engineering / GET roles** · [Portfolio](https://praveennp158-cell.github.io) · [LinkedIn](https://linkedin.com/in/praveen-p) · [Email](mailto:70praveen.p@gmail.com)
 
-- 🎓 Final-year **B.Tech in Artificial Intelligence & Data Science**, VSB College of Engineering Technical Campus, Coimbatore (Grad. 2027)
-- 🔭 Building **NLP-to-SQL Converter** — converts natural language into SQL using Groq's Llama 3.3-70B, with a three-tier SAFE / CONFIRM / BLOCK query validator to guard against destructive operations
-- 💼 Former intern at **Accent Techno Soft** (Python/ML — dataset preprocessing & model benchmarking) and **Nextsync** (Data Science — EDA)
-- 🎯 Currently interviewing for Software Engineering / GET roles
-- 🌱 Sharpening DSA, SQL, and applied ML for placement drives
+</div>
 
 ---
 
-### 🛠️ Tech Stack
+### About
 
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
-**Libraries & Frameworks**
-
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-
-**Tools**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+- Final-year **B.Tech, AI & Data Science** @ VSB College of Engineering Technical Campus, Coimbatore — CGPA 8.3, graduating 2027
+- Former intern at **Accent Techno Soft** (Python/ML) and **Nextsync** (Data Science)
+- Building things end-to-end rather than half-learning ten of them
 
 ---
 
-### 📌 Featured Project
+### Featured build — NLP-to-SQL Converter
 
-**[NLP-to-SQL Converter](https://github.com/praveennp158-cell/NLP-TO-SQL-CONVERTER)**
-Converts natural language queries into SQL using Groq's Llama 3.3-70B, with a three-tier SAFE/CONFIRM/BLOCK validator to prevent destructive queries. Built solo with Python, Streamlit, and SQLite.
+Types like *"show employees earning above 70,000"* turn into working SQL, no query language required. The part worth looking at is the safety layer underneath:
 
----
+```sql
+-- three-tier query validator
+SAFE     SELECT ...             → auto-executed
+CONFIRM  INSERT / UPDATE ...    → confirmation required first
+BLOCK    DELETE / DROP ...      → rejected outright
+```
 
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=praveennp158-cell&show_icons=true&theme=default&hide_border=true" alt="GitHub Stats" height="165"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=praveennp158-cell&hide_border=true" alt="GitHub Streak" height="165"/>
-</p>
-
----
-
-### 🏅 Certifications
-
-- HackerRank — Python (Basic), SQL (Basic)
-- Google Generative AI Badge
+Built with Python, Streamlit, SQLite, and Groq's Llama 3.3-70B. → [Repo](https://github.com/praveennp158-cell/NLP-TO-SQL-CONVERTER) · [Live portfolio walkthrough](https://praveennp158-cell.github.io)
 
 ---
 
-### 📫 Connect
+### Internship results
 
-<!-- Add your LinkedIn / email here, e.g.: -->
-<!-- [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](your-linkedin-url) -->
+| Where | What happened |
+|---|---|
+| Accent Techno Soft | Benchmarked 3 models (LogReg, Decision Tree, Random Forest) on 2,000+ records — best hit **85% accuracy**, +12 pts over baseline |
+| Accent Techno Soft | Cleaned the same dataset with Pandas/NumPy — **25% fewer** data errors before training |
+
+---
+
+### Also built
+
+- **[Object Detection — YOLOv8](https://github.com/praveennp158-cell/OBJECT-DETECTION-YOLOV8)** — one pipeline, three modes (image / webcam / video), tuned to cut false positives across 80+ classes
+- **Smart Dustbin (IoT)** — sensor-triggered fill alerts, architected as scalable smart-city infra · *patent filed*
+
+---
+
+### Stack
+
+`Python` `Java` `SQL` &nbsp;·&nbsp; `NumPy` `Pandas` `Scikit-learn` `OpenCV` &nbsp;·&nbsp; `Streamlit` `Groq API` &nbsp;·&nbsp; `Git` `GitHub`
+
+---
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/praveennp158-cell/praveennp158-cell/output/github-contribution-grid-snake-dark.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/praveennp158-cell/praveennp158-cell/output/github-contribution-grid-snake.svg" />
+</picture>
+
+</div>
+
+---
+
+### Certifications
+
+HackerRank — Python (Basic), SQL (Basic) · Google Generative AI Badge · Infosys Springboard — Generative AI
