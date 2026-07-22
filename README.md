@@ -1,10 +1,6 @@
 <div align="center">
 
-# 👋 Praveen P
-
-### Final-year AI & Data Science Engineer · Coimbatore
-
-🎯 Looking for a software role where **day-one output** matters more than semesters completed.
+<img src="./assets/banner.svg" alt="Praveen P" width="100%" />
 
 **Open to Software Engineering / GET roles** · [Portfolio](https://praveennp158-cell.github.io) · [LinkedIn](https://linkedin.com/in/praveen-p) · [Email](mailto:70praveen.p@gmail.com)
 
@@ -37,12 +33,12 @@ SELECT * FROM employees WHERE salary > 70000;
 → 14 rows returned
 ```
 
-The part worth a second look is what sits underneath it — a validator that decides what's allowed to actually run:
+The part worth a second look is what sits underneath it — a validator that decides what's actually allowed to run. It has trust issues with `DROP TABLE`, and honestly, so do I:
 
 ```sql
 SAFE     SELECT ...             → auto-executed
 CONFIRM  INSERT / UPDATE ...    → confirmation required first
-BLOCK    DELETE / DROP ...      → rejected outright
+BLOCK    DELETE / DROP ...      → rejected outright, no appeals
 ```
 
 Built with Python, Streamlit, SQLite, and Groq's Llama 3.3-70B. → [Repo](https://github.com/praveennp158-cell/NLP-TO-SQL-CONVERTER) · [Live portfolio walkthrough](https://praveennp158-cell.github.io)
@@ -52,7 +48,7 @@ Built with Python, Streamlit, SQLite, and Groq's Llama 3.3-70B. → [Repo](https
 ### 🛠️ Also built
 
 - **[Object Detection — YOLOv8](https://github.com/praveennp158-cell/OBJECT-DETECTION-YOLOV8)** — one pipeline, three modes (image / webcam / video), tuned to cut false positives across 80+ classes
-- **Smart Dustbin (IoT)** — sensor-triggered fill alerts, architected as scalable smart-city infra · *patent filed*
+- **Smart Dustbin (IoT)** — sensor-triggered fill alerts, architected as scalable smart-city infra · *patent filed, ego pending*
 
 ---
 
